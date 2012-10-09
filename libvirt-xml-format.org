@@ -1,0 +1,74 @@
+* Domain XML format
+
+** Element and attribute overview
+*** General metadata
+*** Operating system booting
+**** BIOS bootloader
+**** Host bootloader
+**** Direct kernel boot
+**** Container boot
+*** SMBIOS System Information
+*** CPU Allocation
+*** CPU Tuning
+*** Memory Allocation
+*** Memory Backing
+*** Memory Tuning
+*** NUMA Node Tuning
+*** Block I/O Tuning
+*** CPU model and topology
+*** Lifecycle control
+*** Power Management
+*** Hypervisor features
+*** Time keeping
+*** Devices
+**** Hard drives, floppy disks, CDROMs
+**** Filesystems
+**** Device Addresses
+**** Controllers
+**** Device leases
+**** USB and PCI devices
+**** Redirected devices
+**** Smartcard devices
+**** Network interfaces
+***** Virtual network
+***** Bridge to LAN
+***** Userspace SLIRP stack
+***** Generic ethernet connection
+***** Direct attachment to physical interface
+***** PCI Passthrough
+***** Multicast tunnel
+***** TCP tunnel
+***** Setting the NIC model
+***** Setting NIC driver-specific options
+***** Overriding the target element
+***** Specifying boot order
+***** Interface ROM BIOS configuration
+***** Quality of service
+***** Setting VLAN tag (on supported network types only)
+***** Modifying virtual link state
+**** Input devices
+**** Hub devices
+**** Graphical framebuffers
+**** Video devices
+**** Consoles, serial, parallel & channel devices
+***** Guest interface
+****** Parallel port
+****** Serial port
+****** Console
+****** Channel
+***** Host interface
+****** Domain logfile
+****** Device logfile
+****** Virtual console
+****** Null device
+****** Pseudo TTY
+****** Host device proxy
+****** Named pipe
+****** TCP client/server
+****** UDP network console
+****** UNIX domain socket client/server
+**** Sound devices
+**** Watchdog device
+**** Memory balloon device
+*** Security label
+** Example configs
